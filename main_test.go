@@ -7,7 +7,7 @@ import (
 func TestMaxInt(t *testing.T) {
 	a, b := 2, 7
 
-	res := MaxInt(a, b)
+	res := MaxNum(a, b)
 
 	if res != b {
 		t.Errorf("expected %d, got %d", b, res)
